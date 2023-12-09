@@ -21,6 +21,6 @@ public class Cone extends Shape {
 	
 	@Override
 	public String toString() {
-		return "Surface Area: " + surface_area() + ", Volume: " + volume();
+		return "A Cone, Surface Area: " + surface_area() + ", Volume: " + volume();
 	}
 }

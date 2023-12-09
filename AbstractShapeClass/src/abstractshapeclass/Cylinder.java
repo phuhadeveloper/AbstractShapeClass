@@ -21,6 +21,6 @@ public class Cylinder extends Shape {
 	
 	@Override
 	public String toString() {
-		return "Surface Area: " + surface_area() + ", Volume: " + volume();
+		return "A Cylinder, Surface Area: " + surface_area() + ", Volume: " + volume();
 	}
 }
