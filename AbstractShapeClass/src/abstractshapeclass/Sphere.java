@@ -21,4 +21,8 @@ public class Sphere extends Shape {
 	public String toString() {
 		return "A Sphere, Surface Area: " + surface_area() + ", Volume: " + volume();
 	}
+	
+	public static void main(String[] args) {
+		
+	}
 }

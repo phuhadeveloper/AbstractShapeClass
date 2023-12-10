@@ -4,7 +4,7 @@ public class Cone extends Shape {
 	private double radius;
 	private double height;
 	
-	public Cone(double radius, double height) {
+	public Cone(double radius, double height){
 		this.radius = radius;
 		this.height = height;
 	}
@@ -22,5 +22,9 @@ public class Cone extends Shape {
 	@Override
 	public String toString() {
 		return "A Cone, Surface Area: " + surface_area() + ", Volume: " + volume();
+	}
+	
+	public static void main(String[] args) {
+		
 	}
 }

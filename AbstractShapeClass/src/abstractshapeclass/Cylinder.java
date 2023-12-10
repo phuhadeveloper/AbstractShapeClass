@@ -4,7 +4,7 @@ public class Cylinder extends Shape {
 	private double radius;
 	private double height;
 	
-	public Cylinder(double radius, double height) {
+	public Cylinder(double radius, double height){	
 		this.radius = radius;
 		this.height = height;
 	}
@@ -22,5 +22,9 @@ public class Cylinder extends Shape {
 	@Override
 	public String toString() {
 		return "A Cylinder, Surface Area: " + surface_area() + ", Volume: " + volume();
+	}
+	
+	public static void main(String[] args) {
+		
 	}
 }
